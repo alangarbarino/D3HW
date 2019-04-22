@@ -2,9 +2,9 @@
 console.log ("start js")
 
 var chart = d3.select('#scatter');
-var margin = { top: 50, right: 50, bottom: 90, left: 70 }
-var h = 800 - margin.top - margin.bottom
-var w = 800 - margin.left - margin.right
+var margin = { top: 30, right: 50, bottom: 70, left: 70 }
+var h = 600 - margin.top - margin.bottom
+var w = 600 - margin.left - margin.right
 
 // append SVG
 console.log("entering build SVG")
